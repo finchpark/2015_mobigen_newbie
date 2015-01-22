@@ -38,7 +38,7 @@ public class GitTestMain {
 				break;
 				
 			default:
-				System.out.println("잘못 입력 하셨습니다.");
+				System.out.println("Input Error. Wrong Number.");
 				break;
 			}
 		}

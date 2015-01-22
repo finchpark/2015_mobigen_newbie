@@ -9,46 +9,46 @@ public class Bank {
 	public static Scanner sc = new Scanner(System.in);
 	
 	public int menu() {
-		System.out.println("[���뻾]");
-		System.out.println("1. 怨꾩쥖媛쒖꽕");
-		System.out.println("2. �엯湲�");
-		System.out.println("3. 異쒓툑");
-		System.out.println("4. 怨꾩쥖議고쉶");
-		System.out.println("5. �쟾泥� 怨꾩쥖 議고쉶");
-		System.out.println("0. 醫낅즺");
-		System.out.print("�꽑�깮 : ");
+		System.out.println("[BANK]");
+		System.out.println("1. CREATE ACCOUNT");
+		System.out.println("2. DEPOSIT");
+		System.out.println("3. WITHDRAW");
+		System.out.println("4. ACCOUNT INFO");
+		System.out.println("5. ALL ACCOUNT INFO");
+		System.out.println("0. EXIT");
+		System.out.print("SELECT: ");
 		
 		int sel = sc.nextInt();
 		return sel;
 	}
 
 	public void createAccount() {
-		// 怨꾩쥖踰덊샇 �엯�젰
-		// 怨좉컼 �씠由� �엯�젰
-		// �엯湲덉븸 �엯�젰
+		// Input Account Number
+		// Input Customer Name
+		// Input Deposit Money
 		
-		// 怨꾩쥖踰덊샇 以묐났 諛⑹�
+		// Check Duplicate Account
 		
-		// 怨꾩쥖 �깮�꽦
+		// Create Account
 	}
 
 	public void deposit() {
-		// 怨꾩쥖踰덊샇 �엯�젰
-		// �엯湲덉븸 �엯�젰
+		// Input Account Number
+		// Input Deposit Money
 	}
 
 	public void withdraw() {
-		// 怨꾩쥖踰덊샇 �엯�젰
-		// 異쒓툑�븸 �엯�젰
+		// Input Account Number
+		// Input Withdraw Money
 	}
 
 	public void accountInfo() {
-		System.out.println("[怨꾩쥖 議고쉶]");
-		System.out.println("怨꾩쥖踰덊샇: ");
+		System.out.println("[CHECK ACCOUNT]");
+		System.out.println("ACCOUNT NO: ");
 		String id = sc.next();
 		
 		if(accs.containsKey(id) == false){
-			System.out.println("�옒紐삳맂 怨꾩쥖踰덊샇 �엯�땲�떎.");
+			System.out.println("WRONG ACCOUNT NUMBER");
 			return;
 		}
 		
@@ -56,6 +56,6 @@ public class Bank {
 	}
 
 	public void allAccountInfo() {
-		// 紐⑤뱺 怨꾩쥖 異쒕젰
+		// Print All Account Info
 	}
 }
