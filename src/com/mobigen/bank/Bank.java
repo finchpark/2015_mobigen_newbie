@@ -9,46 +9,46 @@ public class Bank {
 	public static Scanner sc = new Scanner(System.in);
 	
 	public int menu() {
-		System.out.println("[은행]");
-		System.out.println("1. 계좌개설");
-		System.out.println("2. 입금");
-		System.out.println("3. 출금");
-		System.out.println("4. 계좌조회");
-		System.out.println("5. 전체 계좌 조회");
-		System.out.println("0. 종료");
-		System.out.print("선택 : ");
+		System.out.println("[BANK]");
+		System.out.println("1. CREATE ACCOUNT");
+		System.out.println("2. DEPOSIT");
+		System.out.println("3. WITHDRAW");
+		System.out.println("4. ACCOUNT INFO");
+		System.out.println("5. ALL ACCOUNT INFO");
+		System.out.println("0. EXIT");
+		System.out.print("SELECT: ");
 		
 		int sel = sc.nextInt();
 		return sel;
 	}
 
 	public void createAccount() {
-		// 계좌번호 입력
-		// 고객 이름 입력
-		// 입금액 입력
+		// Input Account Number
+		// Input Customer Name
+		// Input Deposit Money
 		
-		// 계좌번호 중복 방지
+		// Check Duplicate Account
 		
-		// 계좌 생성
+		// Create Account
 	}
 
 	public void deposit() {
-		// 계좌번호 입력
-		// 입금액 입력
+		// Input Account Number
+		// Input Deposit Money
 	}
 
 	public void withdraw() {
-		// 계좌번호 입력
-		// 출금액 입력
+		// Input Account Number
+		// Input Withdraw Money
 	}
 
 	public void accountInfo() {
-		System.out.println("[계좌 조회]");
-		System.out.println("계좌번호: ");
+		System.out.println("[CHECK ACCOUNT]");
+		System.out.println("ACCOUNT NO: ");
 		String id = sc.next();
 		
 		if(accs.containsKey(id) == false){
-			System.out.println("잘못된 계좌번호 입니다.");
+			System.out.println("WRONG ACCOUNT NUMBER");
 			return;
 		}
 		
@@ -56,6 +56,6 @@ public class Bank {
 	}
 
 	public void allAccountInfo() {
-		// 모든 계좌 출력
+		// Print All Account Info
 	}
 }
