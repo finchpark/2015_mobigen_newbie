@@ -4,8 +4,8 @@ import java.util.HashMap;
 import java.util.Scanner;
 
 public class Bank {
-    chlrhkddms
-	private HashMap<String, Account> accs = new HashMap<String, Account>();
+    //chlrhkddms
+	HashMap<String, Account> accs = new HashMap<String, Account>();
 	public static Scanner sc = new Scanner(System.in);
 	
 	public int menu() {
