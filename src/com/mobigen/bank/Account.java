@@ -16,6 +16,6 @@ public class Account {
 	
 	@Override
 	public String toString() {		
-		return "계좌번호: " + id + ", 이름: " + name + ", 잔액: " + balance;
+		return "ACCOUNT NO.: " + id + ", NAME: " + name + ", BALANCE: " + balance;
 	}
 }
