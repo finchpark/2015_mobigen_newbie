@@ -14,6 +14,22 @@ public class Account {
 		this.balance = balance;
 	}
 	
+	public void deposit(int money){
+		if(money <= 0){
+			System.out.println("DEPOSIT ERROR");
+		}
+		
+		this.balance += money;
+	}
+	
+	public void withdraw(int money){
+		if(this.balance < money){
+			System.out.println("WITHDRAW ERROR");
+		}
+		
+		this.balance -= money;
+	}
+	
 	@Override
 	public String toString() {		
 		return "ACCOUNT NO.: " + id + ", NAME: " + name + ", BALANCE: " + balance;
