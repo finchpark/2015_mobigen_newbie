@@ -4,8 +4,10 @@ import java.util.HashMap;
 import java.util.Scanner;
 
 public class Bank {
-    //chlrhkddms
-	HashMap<String, Account> accs = new HashMap<String, Account>();
+
+//chlrhkddms
+	private HashMap<String, Account> accs = new HashMap<String, Account>();
+
 	public static Scanner sc = new Scanner(System.in);
 	
 	public int menu() {
@@ -23,23 +25,41 @@ public class Bank {
 	}
 
 	public void createAccount() {
-		// Input Account Number
-		// Input Customer Name
-		// Input Deposit Money
+		System.out.println("\n[CREATE ACCOUNT]");
+		System.out.println("ACCOUNT NO: ");
+		String id = sc.next();
+		System.out.println("USER NAME: ");
+		String name = sc.next();
+		int money = 0;
 		
 		// Check Duplicate Account
 		
 		// Create Account
+		// Put Account Information into HashMap
 	}
 
 	public void deposit() {
-		// Input Account Number
-		// Input Deposit Money
+		System.out.println("\n[CREATE ACCOUNT]");
+		System.out.println("ACCOUNT NO: ");
+		String id = sc.next();
+		System.out.println("DEPOSIT MONEY: ");
+		int money = sc.nextInt();
+
+		// Check Duplicate Account
+		
+		// Account.deposit()
 	}
 
 	public void withdraw() {
-		// Input Account Number
-		// Input Withdraw Money
+		System.out.println("\n[CREATE ACCOUNT]");
+		System.out.println("ACCOUNT NO: ");
+		String id = sc.next();
+		System.out.println("WITHDRAW MONEY: ");
+		int money = sc.nextInt();
+		
+		// Check Duplicate Account
+		
+		// Account.withdraw()
 	}
 
 	public void accountInfo() {
