@@ -1,0 +1,73 @@
+[33mcommit 7f79d60238a57b2861b82bfd8130428aa6bcbaa1[m
+Author: kosangsun <kosangsunsw@gmail.com>
+Date:   Fri Jan 23 16:24:22 2015 +0900
+
+    신기하네
+
+[33mcommit 6cfaab2535310cca95498fcd702fc6bc0975b0d5[m
+Merge: c8f2d5e 5cef8e4
+Author: choigwangeun <wnapdlf@naver.com>
+Date:   Thu Jan 22 17:40:01 2015 +0900
+
+    itsthird
+
+[33mcommit c8f2d5eabc5debf2c709cf2cef2622d08e634598[m
+Author: choigwangeun <wnapdlf@naver.com>
+Date:   Thu Jan 22 17:38:13 2015 +0900
+
+    myedit
+
+[33mcommit 5cef8e4c5f9d570b3df9d487922083bcafd6cd11[m
+Author: Sooneui.Kwon <sekwon@mobigen.com>
+Date:   Thu Jan 22 17:32:24 2015 +0900
+
+    Add function in method of Bank.java
+
+[33mcommit 3cb8465b8aec168d5cde5431f6e0c7c1f3a693af[m
+Author: Sooneui.Kwon <sekwon@mobigen.com>
+Date:   Thu Jan 22 15:07:41 2015 +0900
+
+    add deposit and withdraw method in Account.java
+
+[33mcommit d32aaf85669dcbd43175b96d07ae633e65a86128[m
+Author: Sooneui.Kwon <sekwon@mobigen.com>
+Date:   Thu Jan 22 14:23:37 2015 +0900
+
+    Additional Encoding...
+
+[33mcommit 54efc58a7f07dd4f60b910b357c4f59f5f69d5b2[m
+Author: Sooneui.Kwon <sekwon@mobigen.com>
+Date:   Thu Jan 22 14:09:11 2015 +0900
+
+    reset test complete
+
+[33mcommit 40d1be246142a3a67e243fe4efb1a0c5b39ec076[m
+Merge: ac353cf 0354066
+Author: choigwangeun <wnapdlf@naver.com>
+Date:   Thu Jan 22 13:55:53 2015 +0900
+
+    merge
+
+[33mcommit 03540668a581893d1e79ff4ac1cdc70635698f5e[m
+Author: Sooneui.Kwon <sekwon@mobigen.com>
+Date:   Thu Jan 22 13:53:26 2015 +0900
+
+    Korean to English because of Encoding
+
+[33mcommit ac353cf86efd0d5bf4a1f57e635465ad66e54a0f[m
+Author: choigwangeun <wnapdlf@naver.com>
+Date:   Thu Jan 22 13:49:26 2015 +0900
+
+    second
+
+[33mcommit 93f42763246774b67f8f51da9839ecd186a08dce[m
+Author: Sooneui.Kwon <sekwon@mobigen.com>
+Date:   Thu Jan 22 13:27:26 2015 +0900
+
+    bank prototype
+
+[33mcommit dd8200806dbd4483423bb3da6bd3cb4c5a4360b5[m
+Author: Sooneui.Kwon <sekwon@mobigen.com>
+Date:   Tue Jan 20 19:44:49 2015 +0900
+
+    initate git test
