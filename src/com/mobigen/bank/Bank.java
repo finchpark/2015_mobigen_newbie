@@ -25,15 +25,14 @@ public class Bank {
 	}
 
 	public void createAccount() {
-		System.out.println("\n[CREATE ACCOUNT]");
-		System.out.println("ACCOUNT NO: ");
+		System.out.println("\n[CREATE ACCOUNT] : 111-222-333333");
+		System.out.println("ACCOUNT NO: 1¹ø");
 		String id = sc.next();
-		System.out.println("USER NAME: ");
+		System.out.println("USER NAME: ±èÁ¤¾Æ ");
 		String name = sc.next();
 		int money = 0;
 		
 		// Check Duplicate Account
-		
 		// Create Account
 		// Put Account Information into HashMap
 	}
