@@ -58,8 +58,10 @@ public class Bank {
 		int money = sc.nextInt();
 		
 		// Check Duplicate Account
-		
-		// Account.withdraw()
+		if(accs.get(id) != null) {
+			// Account.withdraw()
+			accs.get(id).withdraw(money);
+		}
 	}
 
 	public void accountInfo() {
