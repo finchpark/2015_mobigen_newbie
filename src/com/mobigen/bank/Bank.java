@@ -24,7 +24,7 @@ public class Bank {
 	}
 
 	public void createAccount() {
-		System.out.println("\n[CREATE ACCOUNT]");
+		System.out.println("\n[CREATE ACCOUNT] : hi");
 		System.out.println("ACCOUNT NO: ");
 		String id = sc.next();
 		System.out.println("USER NAME: ");
