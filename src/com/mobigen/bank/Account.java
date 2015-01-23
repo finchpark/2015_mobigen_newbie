@@ -16,6 +16,7 @@ public class Account {
 	
 	public void deposit(int money){
 		if(money <= 0){
+			System.out.println("µ·ÀÌ¾ø¾î¿ä");
 			System.out.println("DEPOSIT ERROR");
 		}
 		

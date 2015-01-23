@@ -5,7 +5,6 @@ import java.util.Scanner;
 
 public class Bank {
 
-//chlrhkddms
 	private HashMap<String, Account> accs = new HashMap<String, Account>();
 
 	public static Scanner sc = new Scanner(System.in);
@@ -27,13 +26,14 @@ public class Bank {
 	public void createAccount() {
 		System.out.println("\n[CREATE ACCOUNT] : hi");
 		System.out.println("ACCOUNT NO: ");
+		System.out.println("\n[CREATE ACCOUNT] : 111-222-333333");
+		System.out.println("ACCOUNT NO: 1��");
 		String id = sc.next();
-		System.out.println("USER NAME: ");
+		System.out.println("USER NAME: ������ ");
 		String name = sc.next();
 		int money = 0;
 		
 		// Check Duplicate Account
-		
 		// Create Account
 		// Put Account Information into HashMap
 	}
@@ -58,8 +58,10 @@ public class Bank {
 		int money = sc.nextInt();
 		
 		// Check Duplicate Account
-		
-		// Account.withdraw()
+		if(accs.get(id) != null) {
+			// Account.withdraw()
+			accs.get(id).withdraw(money);
+		}
 	}
 
 	public void accountInfo() {
